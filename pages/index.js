@@ -49,7 +49,7 @@ export default function UsernameForm() {
         </form>
         <a
           className="flex ml-auto mr-0 text-center items-center justify-center sm:hidden"
-          href="https://github.com/lorenz-f/username-checker"
+          href="https://github.com/lorenz-f/name-check"
         >
           GitHub
         </a>
