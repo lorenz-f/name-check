@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*:focus-visible {
+  outline: 1px thin dashed black;
+  outline-offset: 0px;
+}
+
+.instagram-gradient {
+  background: radial-gradient(circle at 50% 145%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%);
+}
+
+.loader {
+  animation: opacity-change 5s infinite;
+}
+
+@keyframes opacity-change {
+  0% { opacity: 100%; }
+  50% { opacity: 0%; }
+  100% { opacity: 100%; }
+}
